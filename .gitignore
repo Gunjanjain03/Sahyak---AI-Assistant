@@ -2,5 +2,5 @@
 vectorstore_faiss/
 # Log files
 *.docx
-*.txt
+project_log.txt
 ~$*
