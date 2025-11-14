@@ -1,2 +1,6 @@
 .env
 vectorstore_faiss/
+# Log files
+*.docx
+*.txt
+~$*
