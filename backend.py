@@ -113,7 +113,7 @@ def query_llm(retriever, client, user_prompt, image=None):
                     {"type": "text", "text": user_prompt}
                 ]
             })
-            model_to_use = "llama-3.2-11b-vision-preview"
+            model_to_use = "meta-llama/llama-4-scout-17b-16e-instruct"
         else:
             # Text Mode
             messages.append({"role": "user", "content": user_prompt})
