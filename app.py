@@ -37,7 +37,7 @@ with st.sidebar:
         st.success("Brain (AI): Online")
     
     st.markdown("---")
-    st.markdown("**Knowledge Base:** Arduino, ESP32, Tiva C, BME280 Sensor")
+    st.markdown("**Knowledge Base:** Arduino, ESP32, BME280 Sensor")
     
     # Reset Button
     if st.button("🔄 Start New Job", use_container_width=True):
