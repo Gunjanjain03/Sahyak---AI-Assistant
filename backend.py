@@ -117,7 +117,7 @@ def query_llm(retriever, client, user_prompt, image=None):
         else:
             # Text Mode
             messages.append({"role": "user", "content": user_prompt})
-            model_to_use = "llama-3.3-70b-versatile"
+            model_to_use = "llama-3.2-11b-vision-preview"
         
         # 4. Generate Response
         chat_completion = client.chat.completions.create(
