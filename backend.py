@@ -26,7 +26,7 @@ def get_api_key():
 
 # --- COMPONENT LOADING ---
 @st.cache_resource
-def load_rag_components():
+def load_rag_components_v2():  # <--- Changed name
     """Loads the pre-built vector store and embedding model."""
     try:
         model_kwargs = {'device': 'cpu'}

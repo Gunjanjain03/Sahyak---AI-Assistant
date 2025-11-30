@@ -11,7 +11,7 @@ st.set_page_config(
 
 # --- 2. INITIALIZATION ---
 # Load the heavy AI components using the backend functions
-retriever = backend.load_rag_components()
+retriever = backend.load_rag_components_v2()  # <--- Changed name
 client = backend.load_groq_client()
 
 # Check if API Key is missing
@@ -103,4 +103,3 @@ if user_prompt or uploaded_image:
             
             st.markdown(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
-            
