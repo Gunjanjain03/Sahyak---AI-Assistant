@@ -37,7 +37,7 @@ with st.sidebar:
         st.success("Brain (AI): Online")
     
     st.markdown("---")
-    st.markdown("**Knowledge Base:** Arduino, ESP32, BME280 Sensor")
+    st.markdown("**Knowledge Base:** Arduino, ESP32, BME280, BMP280, MQ-4")
     
     # Reset Button
     if st.button("🔄 Start New Job", use_container_width=True):
@@ -103,3 +103,4 @@ if user_prompt or uploaded_image:
             
             st.markdown(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
+            
