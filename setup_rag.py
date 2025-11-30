@@ -6,7 +6,7 @@ from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 
 # --- Configuration ---
 DOCS_PATH = "docs"
-VECTOR_STORE_PATH = "vectorstore_faiss"
+VECTOR_STORE_PATH = "sahayak_memory"
 EMBEDDING_MODEL = "hkunlp/instructor-large"
 
 def create_vector_store():

@@ -1,6 +1,5 @@
 .env
-vectorstore_faiss/
-# Log files
+
 *.docx
 project_log.txt
 ~$*

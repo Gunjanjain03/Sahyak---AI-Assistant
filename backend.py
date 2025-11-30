@@ -12,7 +12,7 @@ import io
 load_dotenv()
 
 # Paths and Models
-VECTOR_STORE_PATH = "vectorstore_faiss"
+VECTOR_STORE_PATH = "sahayak_memory"
 EMBEDDING_MODEL = "hkunlp/instructor-large"
 
 def get_api_key():
