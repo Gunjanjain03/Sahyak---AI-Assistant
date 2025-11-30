@@ -13,7 +13,8 @@ load_dotenv()
 
 # Paths and Models
 VECTOR_STORE_PATH = "sahayak_memory"
-EMBEDDING_MODEL = "hkunlp/instructor-large"
+# EMBEDDING_MODEL = "hkunlp/instructor-large"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 def get_api_key():
     """Retrieves the API Key safely."""

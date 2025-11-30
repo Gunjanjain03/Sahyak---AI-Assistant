@@ -7,7 +7,8 @@ from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 # --- Configuration ---
 DOCS_PATH = "docs"
 VECTOR_STORE_PATH = "sahayak_memory"
-EMBEDDING_MODEL = "hkunlp/instructor-large"
+# EMBEDDING_MODEL = "hkunlp/instructor-large"
+EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 def create_vector_store():
     """Loads PDFs from DOCS_PATH, chunks them, and saves them to a FAISS vector store."""
